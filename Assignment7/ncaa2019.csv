@@ -1,0 +1,331 @@
+Weight,Last,First,Finish
+125,Lee,Spencer,1
+125,Mueller,Jack,2
+125,Rivera,Sebastian,3
+125,Arujau,Vitali,4
+125,Piccininni,Nicholas,5
+125,Glory,Pat,6
+125,Foley,RayVon,7
+125,Bresser,Ronnie,8
+125,Fausz,Sean,cons 12
+125,Fleetwood,Brent,cons 12
+125,McGee,Michael,cons 12
+125,Russell,Sean,cons 12
+125,Mackall,Alex,cons 16
+125,Mattin,Drew,cons 16
+125,Schroder,Devin,cons 16
+125,Schwarm,Jay,cons 16
+125,Ferrante,Carmen,cons 24
+125,Heinselman,Malik,cons 24
+125,Hildebrandt,Drew,cons 24
+125,Meink,Korbin,cons 24
+125,Oliver,Elijah,cons 24
+125,Piotrowski,Travis,cons 24
+125,Townsell,Gabe,cons 24
+125,Verner,Cole,cons 24
+125,Allen,Alonzo,cons 32
+125,Chalifoux,Trey,cons 32
+125,Curry,Gage,cons 32
+125,Moisey,Zeke,cons 32
+125,Montoya,Rico,cons 32
+125,Moody,Christian,cons 32
+125,Punke,Dack,cons 32
+125,West,Bryce,cons 32
+125,Girard,Willy,cons 33
+133,Suriano,Nick,1
+133,Fix,Daton,2
+133,Micic,Stevan,3
+133,Pletcher,Luke,4
+133,DeSanto,Austin,5
+133,Erneste,John,6
+133,Lizak,Ethan,7
+133,Bravo-Young,Roman,8
+133,Gomez,Austin,cons 12
+133,Pengilly,Mason,cons 12
+133,Phillippi,Micky,cons 12
+133,Wilson,Tariq,cons 12
+133,Bridges,Montorie,cons 16
+133,Fehlman,DJ,cons 16
+133,Myers,Korbin,cons 16
+133,Thornton,Ben,cons 16
+133,Gonser,Noah,cons 24
+133,Joint,Gary,cons 24
+133,Nickell,Sean,cons 24
+133,Russell,Codi,cons 24
+133,Schmitt,Matthew,cons 24
+133,Sykora,Cam,cons 24
+133,Terao,Josh,cons 24
+133,Tucker,Charles,cons 24
+133,Cefolo,Anthony,cons 32
+133,Guillen,Mario,cons 32
+133,Paetzell,Brandon,cons 32
+133,Rooney,Tim,cons 32
+133,Spann,Derek,cons 32
+133,Trampe,Zack,cons 32
+133,Turner,Devan,cons 32
+133,Wayne-Harding,Gary,cons 32
+133,Duncan,Dylan,cons 33
+141,Diakomihalis,Yianni,1
+141,McKenna,Joey,2
+141,Eierman,Jaydin,3
+141,Demas,Dom,4
+141,Lee,Nick,5
+141,McKee,Mitch,6
+141,Shoop,Kyle,7
+141,Red,Chad,8
+141,Brock,Kaid,cons 12
+141,Findlay,Matt,cons 12
+141,Moran,Tristan,cons 12
+141,Murin,Max,cons 12
+141,Carr,Michael,cons 16
+141,Morris,Jamel,cons 16
+141,Storr,Kanen,cons 16
+141,Turner,Sam,cons 16
+141,Alber,Josh,cons 24
+141,Gil,Nicholas,cons 24
+141,Headlee,Austin,cons 24
+141,Kelly,Cameron,cons 24
+141,Moore,Mitch,cons 24
+141,Parker,Ian,cons 24
+141,Perry,Sa`Derian,cons 24
+141,Willits,Grant,cons 24
+141,Debien,Chris,cons 32
+141,Finesilver,Josh,cons 32
+141,Krivus,Sam,cons 32
+141,Lantry,Bryan,cons 32
+141,Limmex,Nate,cons 32
+141,Lipari,Pete,cons 32
+141,Shie,Corey,cons 32
+141,Sparacio,Anthony,cons 32
+141,Sandoval,Christopher,cons 33
+149,Ashnault,Anthony,1
+149,Jordan,Micah,2
+149,O`Connor,Austin,3
+149,Finesilver,Mitch,4
+149,Kolodzik,Matthew,5
+149,Mauller,Brock,6
+149,Degen,Jarrett,7
+149,Lugo,Pat,8
+149,Artalona,Anthony,cons 12
+149,Prince,Jared,cons 12
+149,Thomsen,Max,cons 12
+149,Thorn,Thomas,cons 12
+149,Berge,Brady,cons 16
+149,Oliver,Justin,cons 16
+149,Rohlfing,Russell,cons 16
+149,Sprague,Michael,cons 16
+149,Anthony,Tejon,cons 24
+149,Blees,Ryan,cons 24
+149,Heil,Joshua,cons 24
+149,Jeffries,Davion,cons 24
+149,Martin,Cole,cons 24
+149,Maruca,Joshua,cons 24
+149,Monserrat,Christian,cons 24
+149,van der Merwe,Requir,cons 24
+149,Amine,Malik,cons 32
+149,Gfeller,Kaden,cons 32
+149,Olivas,Khristian,cons 32
+149,Oster,Shayne,cons 32
+149,Pohlmeyer,Henry,cons 32
+149,Schuyler,Cortlandt,cons 32
+149,Smith,Tanner,cons 32
+149,Zovistoski,Matthew,cons 32
+149,Kropman,Parker,cons 33
+157,Nolf,Jason,1
+157,Berger,Tyler,2
+157,Pantaleo,Alec,3
+157,Hidlay,Hayden,4
+157,Young,Kaleb,5
+157,Deakin,Ryan,6
+157,Pagdilao,Christian,7
+157,Early,Larry,8
+157,Bleise,Steve,cons 12
+157,Humphreys,Josh,cons 12
+157,Rahmani,Taleb,cons 12
+157,Thomas,Justin,cons 12
+157,Barone,Eric,cons 16
+157,Hartman,Zach,cons 16
+157,Parriott,Griffin,cons 16
+157,Van Brill,John,cons 16
+157,Hayes,Ke-Shawn,cons 24
+157,Jacques,Jarrett,cons 24
+157,LaPrade,BC,cons 24
+157,Parks,Logan,cons 24
+157,Reed,Dan,cons 24
+157,Ruffin,Justin,cons 24
+157,Straw,Chase,cons 24
+157,Weiland,Luke,cons 24
+157,Anderson,Ben,cons 32
+157,Barton,Benjamin,cons 32
+157,Carson,Zac,cons 32
+157,Labrie,Christian,cons 32
+157,McClure,Joshua,cons 32
+157,Monday,Quincy,cons 32
+157,Smythe,Alex,cons 32
+157,Willits,Hunter,cons 32
+157,Klucker,Alexander,cons 33
+165,Lewis,Mekhi,1
+165,Joseph,Vincenzo,2
+165,Marsteller,Chance,3
+165,Wick,Evan,4
+165,White,Isaiah,5
+165,Shields,Joshua,6
+165,Marinelli,Alex,7
+165,Steiert,Bryce,8
+165,Campbell,Te`shan,cons 12
+165,Massa,Logan,cons 12
+165,Romero,Demetrius,cons 12
+165,Wolf,Gordon,cons 12
+165,Dellavecchia,Jesse,cons 16
+165,Fogarty,Andrew,cons 16
+165,Gunther,Joseph,cons 16
+165,Smith,Joseph,cons 16
+165,Ashworth,Branson,cons 24
+165,Brolsma,Carson,cons 24
+165,Bullard,Thomas,cons 24
+165,Flynn,Connor,cons 24
+165,Keller,Troy,cons 24
+165,Kiussis,Nick,cons 24
+165,McCormick,Cael,cons 24
+165,Skidgel,Tanner,cons 24
+165,Coy,Cam,cons 32
+165,Delong,Evan,cons 32
+165,Finesilver,Zach,cons 32
+165,Jarrell,Ebed,cons 32
+165,Marinelli,Tyler,cons 32
+165,Martin,Bryce,cons 32
+165,Morland,Tyler,cons 32
+165,Viruet,Jonathan,cons 32
+165,DiBlasi,Colston,cons 33
+174,Valencia,Zahid,1
+174,Hall,Mark,2
+174,Amine,Myles,3
+174,Lewis,Daniel,4
+174,McFadden,David,5
+174,Labriola,Mikey,6
+174,Kutler,Jordan,7
+174,Skatzka,Devin,8
+174,Harvey,Ben,cons 12
+174,Kane,Devin,cons 12
+174,Lujan,Taylor,cons 12
+174,Lydy,Dylan,cons 12
+174,Grello,Joe,cons 16
+174,Smith,Ethan,cons 16
+174,Smith,Jacobe,cons 16
+174,Womack,Brandon,cons 16
+174,Bastian,Kimball,cons 24
+174,Bullard,Daniel,cons 24
+174,Carey,Spencer,cons 24
+174,Christensen,Ryan,cons 24
+174,Coleman,Marcus,cons 24
+174,Finesilver,Matt,cons 24
+174,Hastings,Hayden,cons 24
+174,Morgan,Andrew,cons 24
+174,De La Riva,Lorenzo,cons 32
+174,Deprez,Vincent,cons 32
+174,Hughes,Drew,cons 32
+174,Oliver,Jacob,cons 32
+174,Richards,Neal,cons 32
+174,Sherry,Dean,cons 32
+174,Stefanik,Travis,cons 32
+174,Wilson,Brit,cons 32
+174,Covaciu,Jake,cons 33
+184,Foster,Drew,1
+184,Dean,Maxwell,2
+184,Martin,Myles,3
+184,Preisch,Ryan,4
+184,Parker,Emery,5
+184,Ness,Chip,6
+184,Geer,Dakota,7
+184,Zavatsky,Zachary,8
+184,Bonaccorsi,Nino,cons 12
+184,Colbray,Samuel,cons 12
+184,Deprez,Lou,cons 12
+184,Venz,Taylor,cons 12
+184,Caffey,Cameron,cons 16
+184,Hazel,Corey,cons 16
+184,Rasheed,Shakur,cons 16
+184,Wilcke,Cash,cons 16
+184,Lyon,Max,cons 24
+184,McNally,Andrew,cons 24
+184,Reenan,Nick,cons 24
+184,Reinhardt,Mason,cons 24
+184,Samuelson,Tate,cons 24
+184,Schany,Will,cons 24
+184,Stewart,Noah,cons 24
+184,Wisman,Dylan,cons 24
+184,Coleman,Bob,cons 32
+184,Ducharme,Dom,cons 32
+184,Gravina,Nick,cons 32
+184,Harvey,Tanner,cons 32
+184,Hemauer,Jackson,cons 32
+184,LaFragola,Christian,cons 32
+184,Parker,Kevin,cons 32
+184,Sumner,Will,cons 32
+184,Kober,Chris,cons 33
+197,Nickal,Bo,1
+197,Moore,Kollin,2
+197,Weigel,Preston,3
+197,Brucki,Patrick,4
+197,Hokit,Josh,5
+197,Miklus,William,6
+197,Warner,Jacob,7
+197,Honis,Benjamin,8
+197,Brunner,Christian,cons 12
+197,Lane,Thomas,cons 12
+197,Sleigh,Tom,cons 12
+197,Traxler,Nathan,cons 12
+197,Jakobsen,Jake,cons 16
+197,Laird,Ethan,cons 16
+197,Orndorff,Tanner,cons 16
+197,Schultz,Eric,cons 16
+197,Adams,Noah,cons 24
+197,Aiello,Jay,cons 24
+197,McDonald,Malik,cons 24
+197,McLaughlin,Anthony,cons 24
+197,Perry,Brett,cons 24
+197,Phipps,Drew,cons 24
+197,Roetman,Joshua,cons 24
+197,Woodley,Jake,cons 24
+197,Bulsak,Greg,cons 32
+197,Caywood,Rocco,cons 32
+197,Diabe,Randall,cons 32
+197,Loiseau,Stephen,cons 32
+197,Root,Sawyer,cons 32
+197,Seely,Jacob,cons 32
+197,Stout,Kellan,cons 32
+197,Whitman,Brandon,cons 32
+197,Jones,Rod,cons 33
+285,Cassar,Anthony,1
+285,White,Derek,2
+285,Steveson,Gable,3
+285,Wood,Jordan,4
+285,Dhesi,Amar,5
+285,Hemida,Youssif,6
+285,Hillger,Trent,7
+285,Stencel,Matt,8
+285,Butterbrodt,Ian,cons 12
+285,Elam,Zach,cons 12
+285,Parris,Mason,cons 12
+285,Stoll,Sam,cons 12
+285,Jennings,Conan,cons 16
+285,Orndorff,Tate,cons 16
+285,Singletary,Chase,cons 16
+285,Voss,Matt,cons 16
+285,Andrews,Brian,cons 24
+285,Aven,Jacob,cons 24
+285,Goodhart,Joseph,cons 24
+285,Gremmel,Gannon,cons 24
+285,Haines,Thomas,cons 24
+285,Jensen,David,cons 24
+285,Miller,Cary,cons 24
+285,Thomas,Demetrius,cons 24
+285,Gilliland-Daniel,Cory,cons 32
+285,Maley,Haydn,cons 32
+285,McKiernan,Colton,cons 32
+285,Miller,Billy,cons 32
+285,Nevills,AJ,cons 32
+285,Ngati,Brandon,cons 32
+285,Pelusi,Antonio,cons 32
+285,Sweany,Jeramy,cons 32
+285,Parker,Zack,cons 33

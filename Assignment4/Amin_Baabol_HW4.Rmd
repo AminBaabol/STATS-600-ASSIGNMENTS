@@ -1,0 +1,458 @@
+---
+title: "Homework 4 Arrays and Lists"
+author: "Amin Baabol"
+date: "06/24/2020"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
+
+```{r,echo=FALSE}
+options(digits=12)
+```
+
+# Instructions
+
+There are six exercises below. You are required to provide five solutions, with the same options for choosing languages as with the last exercise. Four exercises refer to formula from the previous homework, you may reuse code as you wish. You can provide solutions in two languages for one exercise only (for example, Ex. 1,2,3,5 in R and Ex. 1 in SAS is acceptable, Ex. 1,2,3 in SAS and Ex. 1,2 in R is not).
+
+## Reuse
+
+For many of these exercises, you may be able to reuse functions written in prior homework. Include those functions here. You may find that you will need to modify your functions to work correctly for these exercises.
+
+I'm also including data vectors that can be used in some exercises.
+
+```{r}
+CaloriesPerServingMean <- c(268.1, 271.1, 280.9, 294.7, 285.6, 288.6, 384.4)
+CaloriesPerServingSD <- c(124.8, 124.2, 116.2, 117.7, 118.3, 122.0, 168.3)
+Year <- c(1936, 1946, 1951, 1963, 1975, 1997, 2006)
+```
+
+# Exercise 1.
+
+### Part a.
+
+We will produce a graph similar to the graph in Homework 1, but we will plot effect size by year instead of mean by year, and there will be no error bars.
+
+Define $m_1$ to be the 7 means for Calories per Serving from Wansink Table 1. Define $m_2$ to be the single mean for Calories per Serving, 1936. Similarly, define $s_1$ to be the 7 standard deviations from Wansink Table 1 and define $s_2$ to be the single standard deviation for Calories per Serving, 1936.
+
+Calculate Cohen's $d$ for each $m_1$ vs $m_2$ using vector operations; you may also use your previously defined function. The result will be a vector of effect sizes relative to 1936 (the first will be 0). Plot this vector against a vector composed of the publication years $1936, 1946, \dots, 2006$
+
+Add to this plot three horizontal lines, one at $d=0.2$, one at $d=0.5$ and one at $d=0.8$. You should use different colors or different styles for each line. Should any of the effect sizes be considered *large*?
+
+```{r}
+mm <- c(268.1, 271.1, 280.9, 294.7, 285.6, 288.6, 384.4)
+ss <- c(124.8, 124.2, 116.2, 117.7, 118.3, 122.0, 168.3)
+
+Year <- c(1936, 1946, 1951, 1963, 1975, 1997, 2006)
+m1 <- mm[1]
+s1 <- ss[1]
+
+cohen.d <- function(mm,ss,m1,s1){
+  cohens_d <-(abs(mm-m1)/sqrt((ss^2+s1^2)/2))
+  return(cohens_d)
+}
+huh <- cohen.d(mm,ss,m1,s1)
+
+Year <- c(1936, 1946, 1951, 1963, 1975, 1997, 2006)
+plot(Year, huh,
+     main="Effect Size vs Year",
+     xlab="Year",
+     ylab= "Effect Size")
+abline(h=0.2, col="blue")
+abline(h=0.5, col="green")
+abline(h=0.8, col="red")
+
+
+```
+
+
+### Comment(s)
+The effect size is influenced by a few parameters including calories per serving mean and calories per serving standard deviation. Hence, the red horizontal line(d=0.8) and blue horizontal line(d=0.5) which is close to the effect size difference between 1936 and 2006 calories per serving can be considered large.
+
+
+
+# Exercise 2
+
+Create a table to show the required replicates for a range of combinations of $\%Diff$ and $CV$. Do this in steps as follows:
+
+### Part a.
+Define two matrices, one for `CV` and one for `Diff`. Each matrix will be 5 rows by 6 columns. Let the rows in `CV` be the sequence $8, 12, ..., 28$ and let the columns of `Diff` be the squence $5,10, ... , 25$. The matrices should look like:
+
+$$
+\begin{aligned} 
+ CV & = \left\{
+ \begin{array}{cccccc}
+     8 & 12 & 16 & 20 & 24 & 28  \\
+     8 & 12 & 16 & 20 & 24 & 28  \\
+     \vdots & \vdots & \vdots & \vdots & \vdots  & \vdots \\
+     8 & 12 & 16 & 20 & 24 & 28  \\
+   \end{array}
+   \right\} \\
+   & \\
+ Diff & = \left\{
+ \begin{array}{cccccc}
+     5 & 5 & 5 & 5 & 5 & 5 \\
+     10 & 10 & 10 & 10 & 10 & 10\\
+     \vdots & \vdots & \vdots & \vdots & \vdots & \vdots\\
+     25 & 25 & 25 & 25 & 25 & 25 \\
+   \end{array}
+   \right\}
+\end{aligned} 
+$$
+
+Define and print your matrices in the code below.
+
+```{r}
+seq_cv <- rep(seq(8,28,4),5)
+seq_Diff <- rep(seq(5,25,5), 6)
+cv <- matrix(seq_cv, nrow = 5, ncol = 6, byrow = TRUE)
+Diff <- matrix(seq_Diff, nrow = 5, ncol = 6, byrow = FALSE)
+cv
+Diff
+
+```
+
+### Part b.
+
+Calculate require replicates for each combination of `CV` and `Diff`. Use $\alpha=0.05$ and $\beta=0.2$. You should be able to reuse code from previous exercises, and you should not use iteration.
+
+Print the result below. The result should be a $5 \times 6$ matrix.
+
+```{r}
+vector_cv <- as.vector(cv) 
+vector_Diff <- as.vector(Diff)
+newfunction <- function (cv, percent.diff, alpha = 0.05, beta = 0.2){
+  cv <- cv
+  percent.diff <- percent.diff
+  n <- 2*(((cv/percent.diff)^2)*(qnorm((1-alpha/2)) + qnorm((1-beta)))^2) 
+  n <- round(n,0)
+  value <- list(CV = cv, Diff= percent.diff, RequiredReplicates = round(n,0))
+  return(value)
+}
+value <- newfunction(cv = vector_cv, percent.diff = vector_Diff)
+RequiredReplicates <- matrix(value$RequiredReplicates, nrow = 5, ncol = 6, byrow = FALSE)
+rownames(RequiredReplicates) <- paste0("Diff",unique(value$Diff))
+colnames(RequiredReplicates) <- paste0("CV",unique(value$CV))
+RequiredReplicates
+```
+
+
+
+To check your work, repeat the calculations using the rule of thumb from the previous exercises. What is largest deviation of the rule of thumb from the exact calculation? I find that for about half the combinations of `CV` and `Diff`, the two methods are identical; for most the difference is 1 or less.
+
+
+```{r}
+#In order to cross-examine the differences between the exact calculated required replicates and the rule of thumb replicates, I calculated the percent difference between the two matrices
+#delta = (mu1-mu2)/(sigma^2) = (m1-m2)/(Spooled^2)
+#CV = Spooled/((m1+m2))/2) = sqrt(((s1+s2)/2)/((m1+m2)/2))
+#Diff = (m1-m2)/((m1+m2)/2)
+#delta = Diff/CV = ((m1-m2)/((m1+m2)/2))/(sqrt(((s1+s2)/2)/((m1+m2)/2)))
+#delta = (m1-m2)/(sqrt((s1^2+s2^2)/2))
+#delta <- Diff/CV
+#Rule_of_Thumb <- 16/((delta)^2)
+
+Rule_of_Thumb_Replicates <- function (cv, percent.diff){
+  cv <- cv
+  percent.diff <- percent.diff
+  delta <- percent.diff/cv
+  n <- (16/(delta^2))
+  value <- list(CV = cv, Diff= percent.diff, RequiredReplicates = round(n,0))
+  return(value)
+}
+value <- Rule_of_Thumb_Replicates(cv= vector_cv, percent.diff = vector_Diff)
+Rule_of_Thumb_Matrix <- matrix(value$RequiredReplicates, nrow = 5, ncol = 6, byrow = FALSE)
+rownames(Rule_of_Thumb_Matrix) <- paste0("Diff",unique(value$Diff))
+colnames(Rule_of_Thumb_Matrix) <- paste0("CV",unique(value$CV))
+
+# combining all entries into a matrix using the rule of thumb method we get:
+Rule_of_Thumb_Matrix
+# combining all entries into a matrix using the exact calculated method method we get:
+RequiredReplicates
+
+
+```
+
+###
+It seems that the deviation or percent differences isn't that significant for the most part except for elements (Diff15,CV), (Diff25,CV16) and (Diff25,CV24).
+
+
+
+# Exercise 3
+
+In this exercise, we will test your `norm.pdf` function with a range of inputs.
+
+**Do not print the vectors you create for this exercise in the final typeset submission** We will check the results by examining the plots, and printing the vectors themselves will unnecessarily clutter your report. If you get stuck, use the built normal functions to create your plots.
+
+### Part a.
+
+Generate a squence of values from $-3,...,3$ incremented by $0.1$; let this be `x_1`. 
+Calculate the likelihood of each value of `x_1` using the `norm.pdf` function from Homework 3, letting `mu=0` and `sd=1`. Plot the likelihood curve ($L$ is the dependent variable, $x$ is independent) as a line graph.
+
+```{r}
+x_1<- seq(-3,3, by=0.1)
+
+# function definition
+# x is the probability of an observation when taken from a normal distribution population with mean (mu) and standard deviation(sd)
+
+norm.pdf <- function(x,mu=0,sd=1){
+  likelihood <- 1/(sd*sqrt(pi*2))*exp(-((x-mu)^2)/(2*sd^2))
+  return(likelihood)
+}
+
+Likelihood_1 <- norm.pdf(x_1)
+plot(x_1,Likelihood_1,type="b",xlab="Generated sequence Values",ylab="Likelihood",xlim=range(c(x_1)),ylim=range(c(Likelihood_1)),main="Likelihood Curve For X_1",col="blue")
+
+
+```
+
+### Part b.
+
+Let $m_{1936}$ be the mean Calories per Serving from 1936, and let $m_{2006}$ be the mean Calories per Serving, 2006. Let $s_{1936}$ and $s_{2006}$ be the corresponding standard deviations.
+
+Create two sequences and name these `x_2` and `x_3`. Define `x_2` to be a range of values $[m_{1936} - 3\times s_{1936}, \dots, m_{1936} + 3\times s_{1936}]$ and define `x_3` to be $[m_{2006} - 3\times s_{2006}, \dots, m_{2006} + 3\times s_{2006}]$. `x_2` and `x_3` should be the same length as `x_1`.
+
+Calculate the corresponding likelihood for these sequences, using $\{\mu=m_{1936},\sigma=s_{1936}\}$ with `x_2` and use $\{\mu=m_{2006},\sigma=s_{2006}\}$ with `x_3`.
+
+As with part a, plot the likelihood curve for both sequences, but include both in the same graph. Use two different colors or line types for each curve. You may need to use `min` and `max` to find `xlim` values or `ylim` to fit both curves on the same plot. The first curve in this graph should appear identical to the curve in part a; the second curve will be similar but will differ in location and spread.
+
+
+```{r}
+x_2 <- (268.1-((x_1)*124.8))
+x_3 <- (384.4-((x_1)*168.3))
+
+#Calculating the corresponding likelihood for X_2 and X_3 sequences
+
+Likelihood_2 <- norm.pdf(x=x_2, mu=268.1, sd=124.8)
+Likelihood_3 <- norm.pdf(x=x_3, mu=384.4, sd=168.3)
+
+
+plot(x_2,Likelihood_2,main="Likehood Curve For x_2(Orange) & x_3(Red)",xlab="Generated Sequence Values", ylab="Likelihood",type="b", col="orange",xlim=range(c(x_2,x_3)), ylim=range(c(Likelihood_2,Likelihood_3)))
+par(new = TRUE)
+plot(x_3,Likelihood_3,main="Likehood Curve For x_2(Orange) & x_3(Red)",xlab="Generated Sequence Values", ylab="Likelihood",type="b", col="red",xlim=range(c(x_2,x_3)), ylim=range(c(Likelihood_2,Likelihood_3)))
+
+
+
+
+
+```
+
+
+If you choose to solve this with SAS, I've included code in the SAS template to create the graphs, since combining plots in IML is not as easy as in R.
+
+If you wish, you may reproduce the curves using `dnorm` to compare with your function.
+
+# Exercise 4
+
+Suppose we wish to determine the linear relationship between per Calories per Serving and Year. We can determine this by solving a system of linear equations, of the form
+
+$$
+\begin{aligned}
+268.1 & = \beta_1 + \beta_2 \times 1936 \\
+271.1 & = \beta_1 + \beta_2 \times 1946  \\
+\vdots & = \vdots \\
+384.4 & = \beta_1 + \beta_2 \times 2006 \\
+\end{aligned}
+$$
+
+We write this in matrix notation as
+
+$$
+\left(\begin{array}{c}
+268.1 \\
+271.1 \\
+\vdots \\
+384.4 
+ \end{array}\right) 
+ =
+ \left(\begin{array}{rr}
+ 1 & 1936 \\
+ 1 & 1946  \\
+\vdots & \vdots \\
+ 1 & 2006
+ \end{array}\right) 
+ \left(\begin{array}{c}
+ \beta_1 \\
+ \beta_2
+ \end{array}\right)^t
+$$
+
+We can also write this as 
+
+$$
+\mathbf{y} = \mathbf{X} \mathbf{\beta}
+$$ 
+
+and find a solution by computing $\mathbf{\widehat{\beta}} = \mathbf{X}^{- 1}\mathbf{y}$. 
+
+However, an exact solution for the inverse, $\mathbf{X}^{- 1}$ require square matrices, so commonly we use the *normal* equations, 
+
+$$ \mathbf{X}^{t}  \mathbf{y} = \mathbf{X}^{t} \mathbf{X}  \mathbf{\beta} $$
+(where $\mathbf{X}^{t}$ is the transpose of $\mathbf{X}$). We then find 
+
+$$
+\widehat{\mathbf{\beta}} = \left(\mathbf{X}^{t} \mathbf{X} \right)^{-1} \mathbf{X}^{t} \mathbf{y}
+$$
+
+
+### Answer
+
+Define appropriate `X` and `y` matrices (`y` can be a vector in R) in the chunk below.
+
+Multiply the transpose of `X` by `X`, then use `solve` (R) or `inv` (IML) to find the inverse $\left(\mathbf{X}^{t} \mathbf{X} \right)^{-1}$. Multiply this by the product of transpose `X` and `y` to find `hat.beta`.
+
+Print your `hat.beta`.
+
+```{r}
+#Y is the calories per serving means
+Y <- matrix( c(268.1, 271.1, 280.9, 294.7, 285.6, 288.6, 384.4), byrow = FALSE)
+vector_X <- c(1936, 1946, 1951, 1963, 1975, 1997, 2006)
+X=matrix(c((rep(1:1,7)),vector_X),nrow=7,ncol=2)
+Transpose_X <- t(X)
+XX <-Transpose_X%*%X
+Inverse_X <- solve(XX)
+hat.beta= Inverse_X%*%(Transpose_X%*%Y)
+hat.beta
+
+##Checking my work
+
+hat.Y <- X%*%(hat.beta)
+hat.Y
+
+```
+
+
+To check your work, calculate the values predicted by your statistical model. Compute `hat.y` by multiplying `X` and `hat.beta`,
+$$\widehat{y} = \mathbf{X}  \widehat{\beta}$$
+Plot `y` vs the independent variable (the second column of `X`) as points, and `hat.y` vs  independent variable  as a line, preferably a different colors. The `hat.y` values should fall a straight line that interpolates `y` values.
+
+```{r}
+#plotting Y vs independent variable(second column of X)
+
+plot(X[,2], Y, main="Y/hat Y vs X", xlab="X", ylab="Y and hat Y",type = 'p', col = "blue")
+par(new=TRUE)
+plot(X[,2],hat.Y, main="Y/hat Y vs X", xlab="X", ylab="Y and hat Y",type = 'l', col = "red")
+
+```
+
+You can also compare your result to the R function (set `eval=TRUE`).
+
+```{r,eval=FALSE}
+summary(lm(Y~X))
+#summary(lm(CaloriesPerServingMean~Year))
+```
+
+
+#### Alternative methods
+You can also compute $\widehat{\beta}$ by passing both $\mathbf{X}^{t} \mathbf{X} ^{-1}$ and
+$\mathbf{X}^{t} \mathbf{y}$ as arguments to `solve`.
+
+Alternatively, you can install the `MASS ` library and use `ginv` to compute a generalized inverse $\mathbf{X}^{- 1}$. Use this to compute $\mathbf{\widehat{\beta}} = \mathbf{X}^-\mathbf{y}$ in the chunk below:
+
+```{r,eval=FALSE}
+library(MASS)
+print(hat.beta <- ginv(X) %*% y)
+```
+
+
+# Exercise 5
+
+Given a vector of mean estimates $x = x_1, x_2, \dots, x_k$, a vector of standard deviations $s = s_1, s_2, \dots, s_k$ and a vector of sample sizes $n = n_1, n_2, \dots, n_k$, we can calculate a one-way analysis of variance by
+
+$$
+MSB = \frac{n_1(x_1-\bar{x})^2 + n_2(x_2-\bar{x})^2 + \dots + n_k(x_k-\bar{x})^2} {k-1} = \frac{\sum_i n_i(x_i-\bar{x})^2}{k-1}
+$$
+and
+
+$$
+MSW = \frac{(n_1-1)s_1^2 + (n_2-1)s_2^2 + \dots (n_k-1)s_k^2 }{N-k} = \frac{\sum_i (n_i-1)s_i^2}{N-k}
+$$
+
+where $\bar{x}$ is the weighted mean of $x_i = \frac{\sum_i n_i * x_i}{N}$ and $N = \sum_i n_i$. The test statistic is $F = \frac{MSB}{MSW}$ which is distributed as $F_{\alpha,k-1,N-k}$
+
+### Part a
+
+Calculate MSW and MSB for Calories per Serving from Wansink Table 1. You can use the variables `CaloriesPerServingMean` and `CaloriesPerServingSD` defined below. Let $n_1 = n_2 ... = n_k = 18$
+
+Use array functions and arithmetic for your calculations, you should not need iteration (for loops). Do not hard code values for $N$ and $k$, calculate these from the `CaloriesPerServingMean` or `CaloriesPerServingSD`. 
+ 
+Print both MSB and MSW.
+
+```{r}
+caloriespermean <- c(268.1, 271.1, 280.9, 294.7, 285.6, 288.6, 384.4)
+caloriespermeansd <- c(124.8, 124.2, 116.2, 117.7, 118.3, 122.0, 168.3)
+
+CPS_Mean = mean(caloriespermean)
+CPS_Mean
+
+#K is the number of means in the vector
+k <- length(caloriespermean)
+n <- rep(18,k)
+N <- sum(n)
+
+#MSB and MSW
+MSB <- (sum(n*(caloriespermean-CPS_Mean)^2))/(k-1)
+MSW <- (sum((n-1)*caloriespermeansd^2)/(N-k))
+MSB
+MSW
+
+
+```
+
+### Part b
+Calculate an F-ratio and a $p$ for this $F$, using the $F$ distribution with $k-1$ and $N-k$ degrees of freedom. Use $\alpha=0.05$. Compare these values to the corresponding values reported in Wansink Table 1.
+
+```{r}
+F_ratio <- (MSB)/(MSW)
+Deg_free_a <- k-1
+Deg_free_b <- N-k
+Pvalue <- pf(F_ratio, Deg_free_a, Deg_free_b, lower.tail = FALSE)
+F_ratio
+Pvalue
+```
+
+
+You can also check results by entering appropriate values in an online calculator like http://statpages.info/anova1sm.html .
+
+# Exercise 6
+
+In this, we compare the normal and Poisson distributions, using the functions you've written previously. This is also a way to test your normal and Poisson functions over a range of arguments. 
+
+**Do not print the vectors you create for this exercise in the final typeset submission** We will check the results by examining the plots, and printing the vectors themselves will unnecessarily clutter your report. If you get stuck, use the built functions to create your plots. However, the final submission must call your functions.
+
+### Part a
+
+Create a sequence of $x_a$ from $( -5 ... 5 )$, incremented by 0.1. Calculate the normal likelihood for each $x$, assuming $\mu=0$ and $\sigma=1$. Also calculate Poisson probability of each $x$ given a `lambda=1`.
+
+Plot both sets of probablities against `x_a` as lines, using a different color for each curve. Make sure that both curves fit in the plot; you may need to determine minimum and maximum values and set these as graphic parameters (see `ylim`).
+
+Warning: if you do this in SAS, you may have to adjust the lower bound of $x$.
+
+```{r}
+
+```
+
+Does this graph tell you if your Normal PDF function behaves properly?  Does your Poisson handle negative or non-integer values as expected? You might need to call a rounding function on the parameters inside your function.
+
+### Part b
+
+Create a sequence of $x_b = \left \lfloor{\mu - 5 \times \sigma } \right \rfloor , \dots, \left \lceil{\mu+ 5 \times \sigma }  \right \rceil$ using mean and standard deviation for Servings per Recipe from 1936.
+
+Calculate the normal and Poission probability for each $x_b$ as in part a, again using mean and standard deviation from servings per recipe, 1936. The length of this vector should be the same length as the $x_a$ vector as in part a ($\pm 1$), so you will need to calculate an interval based on the range `x_b` and the number of elements in `x_a`
+
+Show the the length of both $x$ vectors are similar by calling `length` for each.
+
+Repeat the plot from part a with this sequence.
+
+If you choose to solve this with SAS, I've included code in the SAS template to create the graphs, since combining plots in IML is not as easy as in R.
+
+
+```{r}
+
+```
+
+To check you work, duplicate the plots by calling built in normal and Poisson functions. Does the built in Poisson function handle negative $x$ differently than your function?
+
+```{r}
+
+```

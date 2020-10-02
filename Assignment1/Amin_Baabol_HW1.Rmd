@@ -1,0 +1,152 @@
+---
+title: "Mid-term Project: Optimizing Grid Cells"
+author: "Amin Baabol"
+date: "07/11/2020"
+
+---
+
+# Instructions
+## Data
+# Analysis
+
+### Enter data
+```{r}
+options(max.print = 50000)
+library("data.table")
+data2015 <- read.csv("~/Desktop/work/Summer2020/STATS600/midterm_project/home.2015.csv", header=TRUE)
+names(data2015) <- c('Id', 'Yield', 'Latitude', 'Longitude')
+data2015 <- data.table(data2015)
+data2015 <- data2015[,-1]
+data2015
+
+NE <- subset(data2015, Latitude >= 200 & Longitude >= 300)
+NW <- subset(data2015, Latitude >= 200 & Longitude <= 300)
+SW <- subset(data2015, Latitude <= 200 & Longitude <= 300)
+SE <- subset(data2015, Latitude <= 200 & Longitude >= 300)
+
+
+NE_Average <- mean(NE$Yield)
+NW_Average <- mean(NW$Yield)
+SW_Average <- mean(SW$Yield)
+SE_Average <- mean(SE$Yield)
+NE_Average
+NW_Average
+SW_Average
+SE_Average
+
+Aggregate_Means1 <-c("NorthEast Quadrant Mean"=NE_Average,"NorthWest Quadrant Mean"=NW_Average,"SouthWest Quadrant Mean"=SW_Average,"SouthEast Quadrant Mean"=SE_Average)
+Aggregate_Means1
+Grand_Mean1 <- mean(Aggregate_Means1)
+Grand_Mean1
+
+SD1 <- sqrt((sum((data2015$Yield-Grand_Mean1)^2))/(length(data2015$Yield)))
+SD1
+
+CV1 <- (SD1/Grand_Mean1)*100
+CV1
+
+#Required replicates
+
+
+
+
+
+```
+
+```{r}
+harvest.dat <- home.2015.dat
+harvest.dat$Latitude <- harvest.dat$LatM
+harvest.dat$Longitude <- harvest.dat$LonM
+harvest.dat$Yield <- harvest.dat$
+```
+
+### Create values for confidence interval plot
+
+Wansink reports that 18 recipes were analyzed.
+
+```{r}
+
+```
+
+Assume a significance level $\alpha$ of 5%.
+
+```{r}
+alpha <- 0.05
+```
+
+Use standard formula for standard error $\sigma / \sqrt{n}$ and confidence interval $t_{\alpha/2} \times s.e.$.
+
+```{r}
+StandardError <- function(sigma, n) {
+  sigma/sqrt(n)
+}
+ConfidenceInterval <- function(sigma, n) {
+  qt(1-alpha/2, Inf)*StandardError(sigma,n)
+}
+```
+
+Create a variable for plotting and calculate upper and lower bounds using confidence intervals.
+
+***My comment
+
+I changed calories per recipe to servings per recipe in the literate chunk below.
+```{r}
+PlotCookingTooMuch.dat <- CookingTooMuch.dat
+PlotCookingTooMuch.dat$ServingsPerRecipe <- PlotCookingTooMuch.dat$ServingsPerRecipeMean
+PlotCookingTooMuch.dat$Lower <- PlotCookingTooMuch.dat$ServingsPerRecipe - ConfidenceInterval(CookingTooMuch.dat$ServingsPerRecipeSD,n)
+PlotCookingTooMuch.dat$Upper <- PlotCookingTooMuch.dat$ServingsPerRecipe + ConfidenceInterval(CookingTooMuch.dat$ServingsPerRecipeSD,n)
+PlotCookingTooMuch.dat <- PlotCookingTooMuch.dat[,c("Year","ServingsPerRecipe","Lower","Upper")]
+```
+
+Examine the values to make sure we've entered correctly.
+
+```{r}
+print(PlotCookingTooMuch.dat)
+```
+
+Check our calculations.  Wansink reports 95% confidence intervals for the 1936 and 2006 means as [6.755826, 19.04417] and [6.694417, 18.70558], respectively. We should be equal, to within rounding error.
+
+***My comments
+
+
+I made changes here and manually entered the lower and upper bounds for both 1936 and 2006. I was expecting R to automatically update my reference values when i changed the variables from calories per recipe to servings per recipe, which it does in the table above but it doesn't update the reference values in the matrix below.I verified the lower and upper bounds with my own hand calculations. There is a slight difference but nothing significant.
+
+```{r}
+CompValues <- PlotCookingTooMuch.dat[c(1,7),c("Lower","Upper")]
+ReferenceValues <- matrix(c(6.755826, 19.04417, 6.694417, 18.70558),nrow=2,byrow=TRUE)
+CompValues
+ReferenceValues
+any(abs(CompValues-ReferenceValues)>0.1)
+```
+
+
+We no longer need the original data.
+```{r}
+CookingTooMuch.dat <- NULL
+```
+
+# Plot the table
+
+```{r}
+plot(ServingsPerRecipe ~ Year, data=PlotCookingTooMuch.dat,
+     col="blue", pch=19,
+     main="Servings per Recipe", 
+     ylab="Servings", 
+     ylim=c(min(PlotCookingTooMuch.dat$Lower), max(PlotCookingTooMuch.dat$Upper)))
+lines(ServingsPerRecipe ~ Year, data=PlotCookingTooMuch.dat, 
+      lty="dashed", col="blue", lend=2)
+segments(x0=PlotCookingTooMuch.dat$Year, 
+         y0=PlotCookingTooMuch.dat$Lower, 
+         x1=PlotCookingTooMuch.dat$Year, 
+         y1=PlotCookingTooMuch.dat$Upper)
+```
+
+# Comments
+
+According to the plot above it seems that there isn't a significant differences in the variations of the average servings per recipe from 1936 to 2006.  
+ 
+
+# References
+
+
+

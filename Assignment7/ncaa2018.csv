@@ -1,0 +1,767 @@
+Weight,Last,First,Conference,Finish,ELO
+125,Atkins,Thayer,ACC,NQ,1297.06
+125,Bentley, LJ,ACC,NQ,1343.66
+125,Fausz,Sean,ACC,cons 24,1380.84
+125,Hayes,Louie,ACC,cons 12,1404.51
+125,Norstrem,Kyle,ACC,cons 24,1348.79
+125,Bianchi,Paul,Big 12,cons 32,1312.73
+125,Briggs,Sinjin,Big 12,NQ,
+125,Brown,Connor,Big 12,cons 24,1373.79
+125,Cannon,Sean,Big 12,NQ,
+125,DeCesare,Tony,Big 12,NQ,
+125,Foster,Drake,Big 12,NQ,
+125,LaMont,Taylor,Big 12,cons 12,1398.16
+125,Moisey,Zeke,Big 12,8,1378.2
+125,Moody,Christian,Big 12,cons 32,1347.97
+125,Piccininni,Nicholas,Big 12,cons 12,1416.54
+125,Schwarm,Jacob,Big 12,cons 32,1338.14
+125,Williams,Sean,Big 12,NQ,
+125,Cray,Brandon,Big Ten,NQ,
+125,Foley,RayVon,Big Ten,cons 33,1373.86
+125,Jimenez,Johnny,Big Ten,NQ,
+125,Kuhn,Carson,Big Ten,NQ,
+125,Lee,Spencer,Big Ten,1,1539.3
+125,Lizak,Ethan,Big Ten,4,1451.39
+125,Maginnis,Mitch,Big Ten,NQ,
+125,Mattin,Drew,Big Ten,cons 16,1415.5
+125,Oliver,Elijah,Big Ten,cons 24,1334.17
+125,Piotrowski,Travis,Big Ten,cons 16,1363.7
+125,Rivera,Sebastian,Big Ten,6,1418.76
+125,Suriano,Nick,Big Ten,2,1486.05
+125,Tomasello,Nathan,Big Ten,3,1502.95
+125,Welch,Luke,Big Ten,cons 12,1373.44
+125,Barzona,Geo,EIWA,NQ,
+125,Baughman, Noah,EIWA,NQ,1345.95
+125,Burns,Ryan,EIWA,NQ,
+125,Chalifoux,Trey,EIWA,NQ,
+125,Cruz,Darian,EIWA,5,1476.73
+125,Curry,Gage,EIWA,cons 32,1309.86
+125,DeVincenzo,Matteo,EIWA,NQ,
+125,Fuentes, Zack,EIWA,NQ,1333.51
+125,Garcia,Edgar,EIWA,NQ,
+125,Good,Spencer,EIWA,NQ,
+125,Hellickson, Nolan,EIWA,NQ,1324.39
+125,Kelley,Trey,EIWA,NQ,
+125,Kilic,Aslan,EIWA,NQ,
+125,Martin,Jacob,EIWA,NQ,
+125,Nelson,Joe,EIWA,NQ,
+125,Planta,Daniel,EIWA,NQ,
+125,Bunduka,Ibrahim,EWL,cons 32,1300.39
+125,Girard,Willy,EWL,NQ,
+125,Martin,John,EWL,NQ,
+125,Park,Gavin,EWL,NQ,
+125,Russell,Sean,EWL,cons 16,1405.63
+125,Werner, Luke,EWL,NQ,1327.03
+125,Wert,Gerald,EWL,cons 32,1327.51
+125,Akins,Kyle,MAC,NQ,1354.87
+125,Ferri,Jake,MAC,NQ,
+125,Giallambardo,Trevor,MAC,NQ,
+125,Gutierrez,Tomas,MAC,NQ,
+125,Hildebrandt,Drew,MAC,NQ,1333.27
+125,Hudkins,Brock,MAC,cons 24,1341.57
+125,McGee,Michael,MAC,cons 24,1387.47
+125,McGhee,Barlow,MAC,cons 32,1339.23
+125,Bresser,Ronnie,Pac 12,7,1421.76
+125,Funakoshi,Yoshito,Pac 12,NQ,
+125,Mendez,Sergio,Pac 12,cons 24,1322.52
+125,Millhof,Ryan,Pac 12,cons 16,1389.67
+125,Townsell,Gabe,Pac 12,cons 24,1347.01
+125,Allen,Alonzo,SoCon,cons 32,1314.60
+125,Conway,Cliff,SoCon,NQ,
+125,Gentzler,Zack,SoCon,NQ,
+125,Jacobs,Will,SoCon,NQ,
+125,McClelland,Michael,SoCon,NQ,
+125,Meink,Korbin,SoCon,NQ,1336.37
+125,Swinson-Barr,De’Andre,SoCon,NQ,
+133,Finesilver,Josh,ACC,cons 32,1311.38
+133,Forys,Dom,ACC,cons 24,1426.82
+133,Gustafson,Dennis,ACC,cons 24,1382.78
+133,Mueller,Jack,ACC,cons 12,1442.25
+133,Sherman,Zachary,ACC,cons 24,1363.74
+133,Wilson,Tariq,ACC,3,1399.49
+133,Bridges,Montorie,Big 12,8,1374.8
+133,Brock,Kaid,Big 12,5,1458.41
+133,Gross,Seth,Big 12,1,1499.22
+133,Jimenez,Isaac,Big 12,NQ,
+133,Lloren,Durbin,Big 12,NQ,
+133,Montoya,Rico,Big 12,cons 16,1337.08
+133,Rubio,Jacob,Big 12,NQ,
+133,Schmitt,Matthew,Big 12,cons 16,1379.68
+133,Simmons,Markus,Big 12,NQ,
+133,Sykora,Cam,Big 12,cons 32,1357.53
+133,Wagner,Jack,Big 12,NQ,
+133,Williams,Trevor,Big 12,NQ,
+133,Delvecchio,Scott,Big Ten,6,1387.19
+133,Duncan,Dylan,Big Ten,cons 32,1349.45
+133,Glynn,Paul,Big Ten,NQ,
+133,Griffin,Logan,Big Ten,NQ,
+133,Keener,Corey,Big Ten,cons 24,1334.77
+133,Lantz,Jens,Big Ten,NQ,
+133,McKee,Mitch,Big Ten,cons 12,1407.65
+133,Micic,Stevan,Big Ten,2,1475.74
+133,People,Garrett,Big Ten,NQ,
+133,Pletcher,Luke,Big Ten,4,1418.38
+133,Renteria, Jason,Big Ten,NQ,1408.87
+133,Simmons,Jhared,Big Ten,NQ,
+133,Thornton,Ben,Big Ten,cons 32,1344.25
+133,Valdiviez,Colin,Big Ten,cons 16,1332.76
+133,Campbell,David,EIWA,NQ,
+133,DeSanto,Austin,EIWA,cons 12,1454.45
+133,Friedman,Ryan,EIWA,NQ,
+133,Ghione, Gianni,EIWA,NQ,1367.72
+133,Gomez,Jonathan,EIWA,NQ,
+133,Johnson,Tim,EIWA,NQ,
+133,Kosco,Hunter,EIWA,NQ,
+133,Lambert,Garrett,EIWA,NQ,
+133,Martoccio,Dan,EIWA,NQ,
+133,Nicholson,Jacob,EIWA,NQ,
+133,Parker,Scott,EIWA,7,1419.15
+133,Peters, Lane,EIWA,NQ,1345.65
+133,Scorese,Cody,EIWA,NQ,
+133,Terao,Josh,EIWA,cons 32,1392.45
+133,Trybus,Cody,EIWA,NQ,
+133,Tucker,Charles,EIWA,cons 24,1371.36
+133,Cefelo,Anthony,EWL,NQ,1341.38
+133,Coghill,Andrew,EWL,NQ,
+133,Cooley,Roshaun,EWL,NQ,
+133,Fehlman,DJ,EWL,NQ,
+133,Mello,Trevor,EWL,NQ,
+133,Myers,Korbin,EWL,cons 24,1372.13
+133,Schutz,Andy,EWL,NQ,1363.28
+133,Erneste,John,MAC,cons 12,1390.86
+133,Gonser,Noah,MAC,NQ,
+133,Jeffrey,Alijah,MAC,NQ,
+133,Kelly,Cameron,MAC,cons 33,1377.86
+133,Lantry,Bryan,MAC,cons 24,1370.78
+133,Richardson,Caleb,MAC,NQ,
+133,Simon,Dresden,MAC,NQ,
+133,Tutolo,Anthony,MAC,cons 24,1346.48
+133,Naser,Ali,Pac 12,cons 32,1387.09
+133,Nickell,Sean,Pac 12,cons 16,1339.70
+133,Pengilly,Mason,Pac 12,cons 32,1317.20
+133,Schilling,Ty,Pac 12,NQ,
+133,Turner,Devin,Pac 12,NQ,
+133,Anderson,Phillip,SoCon,NQ,
+133,Boston,Nathan,SoCon,NQ,1323.97
+133,Debien,Chris,SoCon,NQ,
+133,Long,Nicholar,SoCon,NQ,
+133,Muldoon,John,SoCon,cons 32,1312.15
+133,Ode,Zamir,SoCon,NQ,
+133,Russell, Codi,SoCon,NQ,1347.58
+133,Starner,Hunter,SoCon,NQ,
+141,Headlee,Austin,ACC,cons 32,1340.85
+141,Jack,Kevin,ACC,6,1463.7
+141,Martino,Sam,ACC,NQ,
+141,Moore,Brent,ACC,cons 24,1361.16
+141,Reitz,Jeremiah,ACC,NQ,
+141,Zanetta,Nick,ACC,cons 16,1353.24
+141,Alber,Josh,Big 12,cons 32,1380.17
+141,De Loza ,Chris,Big 12,NQ,
+141,Findlay,Matt,Big 12,NQ,
+141,Heil,Dean,Big 12,cons 12,1433.64
+141,Longo,Mike,Big 12,NQ,
+141,Meredith,Bryce,Big 12,2,1477.13
+141,Midkiff,McGwire,Big 12,NQ,
+141,Monserrat,Christian,Big 12,NQ,
+141,Opsal, Alec,Big 12,NQ,1344.27
+141,Parker,Ian,Big 12,NQ,
+141,Pohlmeyer,Henry,Big 12,cons 24,1332.27
+141,Polkowske,Ben,Big 12,NQ,
+141,Carr,Michael,Big Ten,cons 12,1401.78
+141,Diehl,Ryan,Big Ten,cons 24,1365.38
+141,Gasca,Javier,Big Ten,NQ,1344.82
+141,Lee,Nick,Big Ten,5,1460.41
+141,Limmex,Nate,Big Ten,cons 24,1333.40
+141,McKenna,Joey,Big Ten,3,1475
+141,McKenna,Alec,Big Ten,NQ,
+141,Profaci,Salvatore,Big Ten,NQ,
+141,Red,Chad,Big Ten,7,1385.89
+141,Stickley,Eli,Big Ten,cons 24,1336.46
+141,Thorn,Thomas,Big Ten,cons 32,1372.99
+141,Turk,Vincent,Big Ten,cons 16,1352.17
+141,Van Brill, Mike,Big Ten,NQ,1359.56
+141,Weaver,Cole,Big Ten,cons 16,1347.7
+141,Antrassian,Carl,EIWA,NQ,
+141,Ascolese,Jp,EIWA,NQ,
+141,Clarke,Kizhan,EIWA,NQ,
+141,D’Arcy,Pat,EIWA,NQ,
+141,Diakomihalis,Yianni,EIWA,1,1480.2
+141,Flores,Julian,EIWA,NQ,
+141,Gil,Nicholas,EIWA,cons 16,1371.56
+141,Harry,Austin,EIWA,NQ,
+141,Jaffe,Alexander,EIWA,NQ,1394.09
+141,Karam,Luke,EIWA,cons 24,1388.28
+141,Kulp,Brett,EIWA,NQ,
+141,Russ,Joe,EIWA,NQ,
+141,Salvo,Zeke,EIWA,NQ,
+141,Smith,Tyler,EIWA,cons 12,1415.39
+141,Vespa,Vinny,EIWA,NQ,
+141,Williams,Shaun,EIWA,NQ,
+141,Anthony,Tejon,EWL,cons 24,1322.67
+141,Cheek,Evan,EWL,cons 32,1369.7
+141,Dippery,Tyson,EWL,NQ,1361.25
+141,Hagan,Nate,EWL,NQ,
+141,Oram,Shawn,EWL,NQ,
+141,Shoop,Kyle,EWL,cons 32,1358.13
+141,Zacherl,Brock,EWL,cons 12,1401.07
+141,Eierman,Jaydin,MAC,4,1495.22
+141,Estevez,Jason,MAC,NQ,
+141,Guillen,Mario,MAC,NQ,
+141,Madrigal,Alex,MAC,cons 32,1336.07
+141,Perry,Sa`Derian,MAC,8,1329.69
+141,Rooney,Tim,MAC,NQ,
+141,Rubino,Anthony,MAC,NQ,
+141,Smith,Mason,MAC,cons 24,1381.82
+141,Hathaway, Jack,Pac 12,NQ,1340.51
+141,Locsin, Isaiah,Pac 12,NQ,1341.28
+141,Rohlfing,Russell,Pac 12,cons 32,1321.94
+141,Schilling,Colton,Pac 12,cons 32,1364.59
+141,Villarreal,Nikko,Pac 12,NQ,
+141,Enriquez,Irvin,SoCon,cons 33,1318.99
+141,Gudenburr,Douglas,SoCon,NQ,
+141,Hulcher,Michael,SoCon,NQ,
+141,Leach,Dakota,SoCon,NQ,
+141,Pongracz, Michael,SoCon,NQ,1353.2
+141,Runzo,Dustin,SoCon,NQ,
+141,Ryan,Jonathan,SoCon,NQ,
+141,Spencer,Denton,SoCon,NQ,
+149,Blees,Ryan,ACC,cons 24,1340.88
+149,Donahue,Beau,ACC,cons 24,1356.26
+149,Heilmann,Troy,ACC,4,1394.89
+149,Krivus,Sam,ACC,cons 16,1349.97
+149,Lee,Robert,ACC,NQ,
+149,Leynaud,Brandon,ACC,NQ,
+149,Carlson,Colten,Big 12,NQ,
+149,Degen,Jarrett,Big 12,cons 12,1365.25
+149,Fate,Jimmy,Big 12,NQ,
+149,Gliva,Kyle,Big 12,NQ,
+149,Jeffries,Davion,Big 12,cons 32,1347.67
+149,Lewallen,Boo,Big 12,8,1424.25
+149,Olivas,Khristian,Big 12,cons 24,1323.32
+149,Ontiveros,Matthew,Big 12,NQ,
+149,Rea,Kyler,Big 12,NQ,
+149,Robbins,Dane,Big 12,cons 32,1292.43
+149,Thomsen,Max,Big 12,cons 12,1414.76
+149,Turner,Sam,Big 12,cons 32,1327.54
+149,Amine,Malik,Big Ten,cons 24,1323.92
+149,Bannister,Alfred,Big Ten,cons 24,1388.91
+149,Barone,Eric,Big Ten,NQ,
+149,Bleise,Steve,Big Ten,cons 24,1372.79
+149,Britton,Jwan,Big Ten,NQ,
+149,Deakin,Ryan,Big Ten,cons 16,1462.21
+149,Deluca,Eleazar,Big Ten,cons 24,1351.52
+149,Hayes,Ke-Shawn,Big Ten,cons 12,1420.7
+149,Martin,Cole,Big Ten,cons 32,1342.5
+149,McCrystal,Colton,Big Ten,cons 16,1390.95
+149,Nash,Austin,Big Ten,NQ,
+149,Raya,AJ,Big Ten,NQ,
+149,Retherford,Zain,Big Ten,1,1583.73
+149,Sorensen,Brandon,Big Ten,5,1501.01
+149,Burkert,Ryan,EIWA,NQ,
+149,Elfvin,Trevor,EIWA,NQ,
+149,Garcia,Frank,EIWA,cons 24,1330.32
+149,Gil,Wil,EIWA,NQ,
+149,Harnsberger,Alex,EIWA,NQ,
+149,Hogue,Seth,EIWA,NQ,
+149,Koll,William,EIWA,NQ,1348.92
+149,Kolodzik,Matthew,EIWA,3,1463.11
+149,Krause,Zach,EIWA,NQ,
+149,Ladnier,Hunter,EIWA,NQ,1339.71
+149,Lucie,Will,EIWA,NQ,
+149,Macalolooy,Jacob,EIWA,NQ,
+149,Oliva,Joe,EIWA,NQ,
+149,Prince,Jared,EIWA,cons 32,1406.92
+149,Schuyler,Cortlandt,EIWA,cons 16,1376.71
+149,Sprague,Michael,EIWA,cons 32,1331.59
+149,Dinmore,Gary,EWL,NQ,1335.09
+149,Ford,Ryan,EWL,NQ,
+149,Lorea,Jensen,EWL,NQ,
+149,Ortz,Taylor,EWL,cons 32,1316.86
+149,Perry,Ronald,EWL,2,1419.18
+149,Stahlnecker,Braden,EWL,NQ,
+149,Yorkdale,Justin,EWL,NQ,
+149,Baker, Nolan,MAC,NQ,1394.31
+149,Carter,Kenan,MAC,NQ,
+149,Driscoll,Chance,MAC,NQ,
+149,Kowalski,Kade,MAC,NQ,
+149,Leeth,Grant,MAC,6,1431.23
+149,Oliver,Justin,MAC,cons 12,1414.52
+149,Palumbo,Nick,MAC,NQ,
+149,Springer,Kyle,MAC,cons 33,1345.63
+149,Barry,Jake,Pac 12,NQ,
+149,Cortez,Joshua,Pac 12,NQ,
+149,Reyes,Josh,Pac 12,NQ,
+149,Tonge,Kalani,Pac 12,NQ,
+149,Tsirtsis,Jason,Pac 12,7,1415.73
+149,Armenta,Joby,SoCon,NQ,
+149,Barnes, Zach,SoCon,NQ,1332.66
+149,Boylen,Roman,SoCon,NQ,
+149,Buckiso,Tyler,SoCon,NQ,1325.9
+149,Conroy,Aiden,SoCon,NQ,
+149,Lawrence,Will,SoCon,NQ,
+149,Londoff,Gavin,SoCon,NQ,
+149,Williams,Tyshawn,SoCon,cons 32,1289.42
+149,Barczak, Evan,,NQ,1328.7
+149,Carter,Kenan,,NQ,1325.59
+149,Keating, Jake,,NQ,1365.52
+157,Finesilver,Mitch,ACC,cons 16,1403.95
+157,Green,Fred,ACC,NQ,
+157,Hidlay,Hayden,ACC,2,1483.14
+157,LaPrade,BC,ACC,NQ,
+157,Monday,Kennedy,ACC,cons 12,1384.34
+157,Rahmani,Taleb,ACC,cons 24,1382.65
+157,Colgan,Archie,Big 12,cons 24,1379.21
+157,Gaxiola,Greg,Big 12,NQ,
+157,Kinn,Tyler,Big 12,NQ,
+157,Lofthouse,Raider,Big 12,NQ,
+157,Moore,Zach,Big 12,NQ,
+157,Moran, Tristan,Big 12,NQ,1371.91
+157,Mossing,Alex,Big 12,NQ,
+157,Ream,Clayton,Big 12,cons 24,1382.26
+157,Ryan,Logan,Big 12,NQ,
+157,Straw,Chase,Big 12,NQ,
+157,Thomas,Justin,Big 12,NQ,
+157,Zilverberg,Luke,Big 12,8,1369.83
+157,Alexander,Justin,Big Ten,NQ,
+157,Berger,Tyler,Big Ten,3,1431.11
+157,Crone,Andrew,Big Ten,cons 24,1390.13
+157,Danishek,Jake,Big Ten,NQ,
+157,Jordan,Micah,Big Ten,6,1470.37
+157,Kemerer,Michael,Big Ten,4,1504.98
+157,Langenderfer,Kyle,Big Ten,NQ,1354.66
+157,Nolf,Jason,Big Ten,1,1549.47
+157,Oster,Shayne,Big Ten,NQ,
+157,Pantaleo,Alec,Big Ten,5,1436.88
+157,Parriot,Griffin,Big Ten,NQ,
+157,Short,Jake,Big Ten,cons 16,1384.37
+157,Tucker,Jake,Big Ten,NQ,
+157,Van Brill,John,Big Ten,cons 12,1392.23
+157,Bassolino,Christian,EIWA,NQ,
+157,Brown,Ian,EIWA,cons 24,1366.58
+157,D`Angelo,Mike,EIWA,cons 32,1380.31
+157,Davis,Zachary,EIWA,NQ,1364.84
+157,Hammond,Garett,EIWA,cons 24,1393.52
+157,Hong,Eric,EIWA,NQ,
+157,Klee, Paul,EIWA,NQ,1358.86
+157,LiCastri,Emmett,EIWA,NQ,
+157,Mauriello,Chris,EIWA,NQ,
+157,Rifanburg,Tristan,EIWA,NQ,
+157,Scheidel,Markus,EIWA,cons 16,1398.8
+157,Staudenmayer,Justin,EIWA,cons 32,1368.44
+157,Stroker,Fredy,EIWA,NQ,
+157,Velliquette,Joseph,EIWA,cons 24,1351.82
+157,Weiland,Luke,EIWA,cons 16,1381.89
+157,Wilson,Brock,EIWA,NQ,
+157,Clagon,Bryant,EWL,NQ,
+157,Klucker,Alex,EWL,cons 32,1348.48
+157,Laubach,Kevin,EWL,NQ,
+157,Shay,Avery,EWL,NQ,
+157,Shomers,Andrew,EWL,cons 32,1357.51
+157,Vaughn,J,EWL,NQ,
+157,Yorkdale,Ryan,EWL,NQ,
+157,Cummings,Cullen,MAC,NQ,
+157,Early,Larry,MAC,cons 24,1348.99
+157,Fasnacht,Eric,MAC,NQ,
+157,Heffernan,Colin,MAC,cons 32,1376.87
+157,Lavallee,Joey,MAC,cons 12,1444.61
+157,McWhirter,Caden,MAC,NQ,
+157,Sparkman,Casey,MAC,cons 32,1327.40
+157,Wolf,James,MAC,NQ,
+157,Fox,Paul,Pac 12,cons 12,1371.7
+157,Hammond,Coleman,Pac 12,cons 32,1374.16
+157,Moy,Jett,Pac 12,NQ,
+157,Shields,Joshua,Pac 12,7,1440.47
+157,Willits,Hunter,Pac 12,cons 32,1364.97
+157,Adcock,Jake,SoCon,NQ,
+157,Kraisser,Austin,SoCon,NQ,
+157,Marinelli,Tyler,SoCon,cons 33,1349.61
+157,Midkiff,Steven,SoCon,NQ,
+157,Najar,Angel,SoCon,NQ,
+157,Palumbo,Tony,SoCon,NQ,
+157,Phillips,Ethan,SoCon,NQ,
+157,Van Velsor,Karsten,SoCon,NQ,
+157,Blaylock,Jonce,,NQ,
+157,Chishko,Solomon,,NQ,1388.45
+157,Clagon,Bryant,,NQ,1381.09
+157,Mossing,Alex,,NQ,
+157,Wilson,Brock,,NQ,1383.24
+165,Atkinson,Andrew,ACC,cons 24,1365.6
+165,Finesilver,Zach,ACC,cons 32,1351.19
+165,Hamann,Brian,ACC,NQ,1353.79
+165,McClure,Josh,ACC,NQ,
+165,McFadden,David,ACC,5,1467.48
+165,Wentzel,Jake,ACC,NQ,1377.55
+165,Ashworth,Branson,Big 12,cons 16,1401.23
+165,Barnes,Dawaylon,Big 12,cons 32,1366.55
+165,Fogarty,Andrew,Big 12,cons 24,1359.57
+165,Kiussis,Nick,Big 12,NQ,
+165,Lopouchanski,Alex,Big 12,NQ,
+165,Patton,Isaiah,Big 12,NQ,
+165,Peterson,Logan,Big 12,NQ,
+165,Rogers,Chandler,Big 12,8,1442.52
+165,Romero,Demetrius,Big 12,cons 24,1309.42
+165,St. John,Skyler,Big 12,NQ,
+165,Torres,Keilan,Big 12,cons 24,1345.52
+165,Burnham,Brendan,Big Ten,NQ,
+165,Campbell,Te`shan,Big Ten,cons 16,1391.54
+165,Hiles,Austin,Big Ten,NQ,
+165,Joseph,Vincenzo,Big Ten,1,1485.34
+165,Lewis,Richie,Big Ten,cons 12,1436.88
+165,Marinelli,Alex,Big Ten,6,1421.35
+165,Martin,Bryce,Big Ten,cons 32,1317.56
+165,Martinez,Isaiah,Big Ten,2,1522.84
+165,Massa,Logan,Big Ten,cons 24,1469.33
+165,Morrissey,Jacob,Big Ten,cons 32,1322.45
+165,Sepke,Mike,Big Ten,NQ,
+165,Wanzek,Nicholas,Big Ten,cons 12,1395.27
+165,White,Isaiah,Big Ten,cons 12,1447.74
+165,Wick,Evan,Big Ten,3,1467.33
+165,Bethea,May,EIWA,cons 33,1382.2
+165,Chavez,Jonathon,EIWA,7,1423.94
+165,Conners,Jacob,EIWA,NQ,
+165,Daniels,Drew,EIWA,cons 16,1344.31
+165,Deprez,Vincent,EIWA,NQ,1351.68
+165,Hollingshead,DJ,EIWA,NQ,1314.55
+165,Jarrell,Ebed,EIWA,NQ,1349.3
+165,Kosoy,Laurence,EIWA,NQ,
+165,Mendel,Andrew,EIWA,NQ,1342.5
+165,Schleifer,Jonathan,EIWA,cons 32,1368.24
+165,Schmidt,Will,EIWA,NQ,
+165,Stamm,Ricky,EIWA,NQ,
+165,Tarsi,Tyler,EIWA,NQ,
+165,Viruet,Jonathan,EIWA,cons 24,1346.24
+165,Wokasch,Anthony,EIWA,NQ,
+165,Wolf,Gordon,EIWA,cons 24,1366.99
+165,Griffith,Garrett,EWL,NQ,
+165,Hoehn,Fritz,EWL,NQ,
+165,Marsteller,Chance,EWL,4,1433.82
+165,Newberry,Nate,EWL,NQ,
+165,Poullas,George,EWL,NQ,
+165,Walsh,Chad,EWL,cons 12,1470.54
+165,Wohlabaugh,Max,EWL,NQ,
+165,Bast,Isaac,MAC,NQ,
+165,Carson,Zachary,MAC,cons 32,1312.98
+165,Flynn,Connor,MAC,cons 24,1365.55
+165,Grover,Noah,MAC,NQ,
+165,Jones,Shane,MAC,NQ,
+165,Parks,Logan,MAC,NQ,1314.75
+165,Scott,Andrew,MAC,NQ,
+165,Terry,Joe,MAC,NQ,
+165,De La Riva,Lorenzo,Pac 12,NQ,
+165,Farina,Ryan,Pac 12,NQ,
+165,Hill,Jared,Pac 12,NQ,
+165,Valencia,Anthony,Pac 12,cons 16,1443.66
+165,Williams,Rodney,Pac 12,NQ,
+165,Cook, Laken,SoCon,NQ,1357.01
+165,Costa,Hunter,SoCon,NQ,
+165,Curtis,Houston,SoCon,NQ,
+165,Higgins,Nate,SoCon,cons 32,1300.11
+165,Hohman,Blake,SoCon,NQ,
+165,Perez,Quentin,SoCon,cons 32,1339.69
+165,Pyke,Chad,SoCon,NQ,1325.23
+165,Stein,Brett,SoCon,NQ,
+174,Bolen,Hunter,ACC,cons 32,1374.13
+174,Bullard,Daniel,ACC,cons 24,1395.03
+174,Finesilver,Matt,ACC,cons 24,1376.51
+174,O’Brien,Tommy,ACC,NQ,
+174,Ramos,Ethan,ACC,cons 16,1413.19
+174,Schany,Will,ACC,cons 33,1307.74
+174,Bastian,Kimball,Big 12,cons 24,1337.72
+174,Billingsly,Michael,Big 12,NQ,
+174,Bogulski,Seth,Big 12,NQ,
+174,Bush,Danny,Big 12,NQ,
+174,Kincaid,Dominic,Big 12,NQ,
+174,Kocer,David,Big 12,7,1387.97
+174,Lujan,Taylor,Big 12,cons 12,1413.14
+174,Mejias,Yoanse,Big 12,cons 24,1375.52
+174,Pope,Kyle,Big 12,NQ,
+174,Smith,Jacobe,Big 12,8,1412.81
+174,Urbach,Dylan,Big 12,NQ,
+174,VonEgidy,Parker,Big 12,NQ,
+174,Amine,Myles,Big Ten,3,1467.78
+174,Breske,Beau,Big Ten,NQ,
+174,Christensen,Ryan,Big Ten,cons 24,1344.23
+174,Grello,Joe,Big Ten,NQ,1355.77
+174,Gunther,Joseph,Big Ten,cons 32,1327.22
+174,Hall,Mark,Big Ten,2,1546.21
+174,Jordan,Bo,Big Ten,5,1492.24
+174,Lydy,Dylan,Big Ten,cons 12,1372.59
+174,Pfarr,Christopher,Big Ten,NQ,
+174,Ritchie,Logan,Big Ten,NQ,
+174,Rojas,David,Big Ten,NQ,
+174,Sebastian,Johnny,Big Ten,cons 16,1391.72
+174,Skatzka,Devin,Big Ten,cons 32,1368.9
+174,Ugalde,Josh,Big Ten,NQ,
+174,Bernstein,Jadaen,EIWA,cons 12,1388.89
+174,Eckhart,Michael,EIWA,NQ,
+174,Gancayco,Matthew,EIWA,NQ,
+174,Grosso,Thomas,EIWA,NQ,
+174,Harvey,Ben,EIWA,cons 12,1350.03
+174,Heller,Sage,EIWA,NQ,
+174,Hiles,Quinton,EIWA,NQ,
+174,Johnson,Josef,EIWA,cons 16,1351.48
+174,Kutler,Jordan,EIWA,6,1423.24
+174,Lombardo,Anthony,EIWA,NQ,
+174,Rogers,Bryce,EIWA,NQ,
+174,Rose,Austin,EIWA,cons 32,1336.7
+174,Stephani,Nick,EIWA,NQ,
+174,White,Tyrel,EIWA,cons 32,1342.91
+174,Womack,Brandon,EIWA,cons 32,1385.26
+174,Young,Josh,EIWA,NQ,
+174,Higgins,Levko,EWL,NQ,
+174,Murphy,Kyle,EWL,NQ,
+174,Rigous,Dom,EWL,NQ,
+174,Schoffstall,Ty,EWL,cons 24,1364.83
+174,Sherry,Dean,EWL,cons 32,1338.26
+174,Siegrist,Jared,EWL,NQ,
+174,Stark,Gabe,EWL,NQ,
+174,Ashughya,Arsen,MAC,NQ,
+174,Barreiro,Dylan,MAC,NQ,
+174,Brucki,Christian,MAC,cons 24,1373.05
+174,Lewis,Daniel,MAC,4,1487.71
+174,McNally`,Andrew,MAC,NQ,
+174,Rosser,Quinton,MAC,NQ,
+174,Weigel,Austin,MAC,NQ,
+174,Wright,Seldon,MAC,cons 32,1341.87
+174,Anderson,Ryan,Pac 12,NQ,
+174,Battisto,Bryan,Pac 12,NQ,
+174,Subjeck,Keaton,Pac 12,cons 24,1383.97
+174,Terry,Myles,Pac 12,NQ,
+174,Valencia,Zahid,Pac 12,1,1520.85
+174,Kiely,Cade,SoCon,NQ,
+174,Lampe,Justin,SoCon,NQ,
+174,Maroni,Christian,SoCon,NQ,
+174,Morgan,Andrew,SoCon,NQ,1338.58
+174,Przybysz,Forrest,SoCon,cons 16,1356.51
+174,Satterfield,Noah,SoCon,NQ,
+174,Shewan,Bryce,SoCon,NQ,
+174,Tywater,Robert,SoCon,NQ,
+174,Reese, Austin,,NQ,1330.69
+184,Harvey,Gregg,ACC,NQ,
+184,Ness,Chip,ACC,7,1369.49
+184,Peck, Drew,ACC,NQ,1337.03
+184,Renda,Pete,ACC,cons 12,1420.44
+184,Russell,Kaden,ACC,NQ,
+184,Zavatsky,Zachary,ACC,6,1417.19
+184,Brandt,Richie,Big 12,NQ,
+184,Foster,Drew,Big 12,cons 24,1378.35
+184,Gabel,Dylan,Big 12,cons 24,1345.01
+184,Ikehara,Zen,Big 12,NQ,
+184,Jantzer,Gary,Big 12,NQ,1309.87
+184,McRill,Brendan,Big 12,NQ,
+184,Moore,Keegan,Big 12,cons 32,1360.34
+184,Mueller,Martin,Big 12,cons 32,1327.13
+184,Pestano,Dane,Big 12,NQ,
+184,Polson,Chaz,Big 12,cons 32,1309.12
+184,Popp,Charley,Big 12,NQ,
+184,Waddell,Matthey,Big 12,NQ,
+184,Abounader,Domenic,Big Ten,5,1445.12
+184,Bowman,Mitchell,Big Ten,cons 16,1288.06
+184,Cappello,Niko,Big Ten,NQ,
+184,Conley,Buddy,Big Ten,NQ,
+184,Gravina,Nick,Big Ten,cons 16,1375.74
+184,Krone,Brandon,Big Ten,cons 32,1299.39
+184,Lyon, Max,Big Ten,NQ,1324.18
+184,Martin,Myles,Big Ten,2,1469.69
+184,Nickal,Bo,Big Ten,1,1534.24
+184,Parker,Emory,Big Ten,3,1396.78
+184,Robertson,Ricky,Big Ten,cons 24,1346.69
+184,Shadaie,Shawn,Big Ten,NQ,
+184,Sliga,Mitch,Big Ten,NQ,1295.31
+184,Venz,Taylor,Big Ten,4,1375.92
+184,Allshouse,Connor,EIWA,NQ,
+184,Boyle,Mark,EIWA,NQ,
+184,Coleman,Michael,EIWA,cons 12,1380.72
+184,Daminana,Cory,EIWA,NQ,
+184,Dean,Maxwell,EIWA,8,1399.22
+184,Dean,Kanon,EIWA,NQ,
+184,DeCiantis,Alexander,EIWA,cons 32,1317.89
+184,Heyob,Joe,EIWA,cons 24,1347.65
+184,LaFragola,Christian,EIWA,cons 16,1315.78
+184,Mercadante,Steven,EIWA,NQ,
+184,Parker,Kevin,EIWA,NQ,
+184,Phipps,Drew,EIWA,NQ,1315.69
+184,Preisch,Ryan,EIWA,cons 12,1420.43
+184,Psomas,Andrew,EIWA,NQ,
+184,Schneider,Steven,EIWA,cons 24,1347.21
+184,Stewart,Noah,EIWA,NQ,1333.81
+184,Allard,Trevor,EWL,NQ,
+184,Ancewicz,Zach,EWL,NQ,
+184,Bulsak,Greg,EWL,cons 32,1352.57
+184,Corba,Nick,EWL,NQ,1323.58
+184,Harrison,Austin,EWL,NQ,
+184,Hazel,Corey,EWL,cons 24,1315.59
+184,Stinson,Wayne,EWL,NQ,
+184,Agee,Antonio,MAC,NQ,
+184,Ellingwood,Jordan,MAC,cons 16,1351.7
+184,Gorman,Bryce,MAC,cons 32,1252.28
+184,MacCallum,Kayne,MAC,cons 24,1285.11
+184,Marriott,Canten,MAC,cons 24,1307.39
+184,McCracken,Colin,MAC,NQ,
+184,Perry,Brett,MAC,NQ,
+184,Yeargan,Hunter,MAC,NQ,
+184,Coleman,Bob,Pac 12,NQ,
+184,Ducharme,Dom,Pac 12,NQ,
+184,Flores,Austin,Pac 12,NQ,
+184,Norfleet,Kordell,Pac 12,cons 32,1301.33
+184,Wilhelm,Matt,Pac 12,NQ,
+184,Andrews,Charlie,SoCon,NQ,
+184,Beck,Chris,SoCon,NQ,
+184,Carr,Bryce,SoCon,cons 12,1393.77
+184,Clothier,Alan,SoCon,cons 33,1338.92
+184,Fenn,Conor,SoCon,NQ,
+184,Gozinez,Jake,SoCon,NQ,
+184,Graves,Cole,SoCon,NQ,
+184,Lopouchanski,Michael,SoCon,NQ,
+197,Aiello,Jay,ACC,NQ,1299.28
+197,Chaid,Daniel,ACC,cons 24,NA
+197,Haught,Jared,ACC,2,1432.04
+197,Macchiavello,Michael,ACC,1,1406.84
+197,Schenk,Alec,ACC,NQ,
+197,Stout, Kellan,ACC,NQ,1303.59
+197,Colbray,Samuel,Big 12,NQ,
+197,Dixon,Andrew,Big 12,NQ,
+197,Eaton,Cordell,Big 12,NQ,
+197,Hokit, Josh,Big 12,NQ,1309.69
+197,Holschlag,Jacob,Big 12,5,1367.78
+197,McLaughlin,Anthony,Big 12,NQ,
+197,Orndorff,Tanner,Big 12,cons 32,1290.29
+197,Paine,Luke,Big 12,NQ,
+197,Rotert,Nate,Big 12,cons 12,1345.69
+197,Seely,Jacob,Big 12,cons 32,1287.58
+197,Smith,Jacob,Big 12,cons 16,1359.66
+197,Weigel,Preston,Big 12,cons 32,1364.22
+197,Anderson,Dylan,Big Ten,NQ,
+197,Beazley,Kevin,Big Ten,NQ,1359.52
+197,Brunner,Christian,Big Ten,cons 24,1346.76
+197,Chakonis, Zack,Big Ten,NQ,1307.97
+197,Kleimola,Jake,Big Ten,NQ,
+197,Lee,Andre,Big Ten,NQ,
+197,May,Nck,Big Ten,NQ,
+197,Messner,Anthony,Big Ten,NQ,
+197,Moore,Kollin,Big Ten,4,1420.78
+197,Rasheed,Shakur,Big Ten,7,1424.86
+197,Ritter,Hunter,Big Ten,cons 24,1346.14
+197,Schultz,Eric,Big Ten,cons 16,1328.63
+197,Whisler, David-Brian,Big Ten,NQ,1304.58
+197,Wilcke,Cash,Big Ten,cons 12,1363.97
+197,Brucki,Patrick,EIWA,cons 24,1401.05
+197,Bulkin,Michael,EIWA,NQ,
+197,Caywood,Rocco,EIWA,cons 24,1324.03
+197,Cervantes, Steban,EIWA,NQ,1301.93
+197,Darmstadt,Ben,EIWA,6,1461.4
+197,Haddad,Nazar,EIWA,NQ,
+197,Kasunic,Jeric,EIWA,cons 24,1387.1
+197,Loiseau,Stephen,EIWA,cons 24,1363.14
+197,Mattiace,Frank,EIWA,cons 12,1395.06
+197,Melikian,Alex,EIWA,NQ,
+197,Reese,Chad,EIWA,NQ,
+197,Robilotto,Phillip,EIWA,NQ,
+197,Stormer,Rico,EIWA,NQ,
+197,Toci,Joe,EIWA,NQ,
+197,Weiler,Chris,EIWA,cons 12,1389.36
+197,Ziegler,Tucker,EIWA,NQ,
+197,Conti,Dustin,EWL,cons 32,1298.83
+197,Kelbly,John,EWL,NQ,
+197,Laird, Ethan,EWL,NQ,1312.22
+197,Reynolds,Dylan,EWL,NQ,
+197,Spencer,Eli,EWL,NQ,
+197,Sponseller,Tristan,EWL,NQ,
+197,Womelsdorf,Logan,EWL,NQ,
+197,Ariola,Joe,MAC,NQ,
+197,Atienza,Jordan,MAC,cons 32,1310.07
+197,Bushman,Noah,MAC,NQ,
+197,Conel,Kyle,MAC,3,1367.74
+197,Hillman,Derek,MAC,NQ,
+197,Ihry,Max,MAC,NQ,
+197,Miklus,Willie,MAC,8,1402.36
+197,Naples,Aaron,MAC,NQ,
+197,Belshay,Cade,Pac 12,NQ,
+197,Griego,Corey,Pac 12,cons 33,1340.38
+197,Lane,Thomas,Pac 12,cons 24,1282.98
+197,Traxler,Nathan,Pac 12,cons 16,1353.18
+197,Williams,Matt,Pac 12,cons 16,1363.97
+197,Boykin,Scottie,SoCon,cons 32,1346.98
+197,Diabe,Randall,SoCon,cons 32,1289.91
+197,Dulaney,Christian,SoCon,NQ,
+197,Kober,Chris,SoCon,NQ,
+197,Koch,Jake,SoCon,NQ,
+197,Perrine,Anthony,SoCon,NQ,
+197,Pritchard,Konner,SoCon,NQ,
+197,Root,Sawyer,SoCon,cons 32,1272.51
+197,Marsden, Andrew,,NQ,1327.2
+285,Boykin,Michael,ACC,cons 24,1361.53
+285,Dunn,Andrew,ACC,cons 24,1332.08
+285,Gilliland-Daniel,Cory,ACC,cons 32,1227.70
+285,Kasper,Jacob,ACC,4,1424.18
+285,Love,Tyler,ACC,cons 32,1240.21
+285,Solomon,Ryan,ACC,cons 24,1355.6
+285,Dennison,Dustin,Big 12,cons 32,1323.13
+285,Eagan,Sam,Big 12,NQ,
+285,Harrington, Marcus,Big 12,NQ,1301.02
+285,Isley, Carter,Big 12,NQ,1303.37
+285,Macki,Alex,Big 12,NQ,
+285,Nevills,AJ,Big 12,cons 32,1356.21
+285,Ngati,Brandon,Big 12,NQ,
+285,Stibral,Daniel,Big 12,NQ,
+285,Wagner,Matt,Big 12,NQ,
+285,Webb,Connor,Big 12,NQ,
+285,White,Derek,Big 12,cons 12,1369.95
+285,Winters,Robert,Big 12,NQ,
+285,Coon,Adam,Big Ten,2,1502.12
+285,Gross,Razohn,Big Ten,NQ,
+285,Hemida,Youssif,Big Ten,8,1366.21
+285,Jennings,Conan,Big Ten,cons 32,1335.59
+285,Jensen,David,Big Ten,NQ,
+285,Miller,Fletcher,Big Ten,NQ,
+285,Nevills,Nick,Big Ten,7,1420.64
+285,Rachal,Duece,Big Ten,NQ,
+285,Rebottaro,Christian,Big Ten,NQ,
+285,Snyder,Kyle,Big Ten,1,1521.07
+285,Stoll,Samuel,Big Ten,5,1400.25
+285,Stone,Ben,Big Ten,NQ,
+285,Streck,Shawn,Big Ten,cons 16,1332
+285,Streifel,Rylee,Big Ten,NQ,1298.6
+285,Araneo,Christian,EIWA,NQ,1352.81
+285,Butterbrodt,Ian,EIWA,NQ,
+285,Cowell,Angus,EIWA,NQ,
+285,Dee,Sean,EIWA,NQ,
+285,Dempsey,Brett,EIWA,cons 33,1302.76
+285,Hartnett,John,EIWA,NQ,
+285,Heald,Robert,EIWA,NQ,
+285,Hughes,Mike,EIWA,6,1420.61
+285,O’Malley,Sean,EIWA,NQ,
+285,Pelusi,Antonio,EIWA,cons 24,1292.01
+285,Piehl,Andrew,EIWA,NQ,
+285,Ryan,Garrett,EIWA,cons 24,1371.08
+285,Stokes,Brandon,EIWA,NQ,
+285,Sweany,Jeramy,EIWA,cons 24,1310.36
+285,Wood,Jordan,EIWA,cons 12,1375.96
+285,Cahill,Toby,EWL,NQ,
+285,Correnti,Mauro,EWL,NQ,
+285,Graeber,Bruce,EWL,NQ,
+285,Haines,Thomas,EWL,cons 16,1388.44
+285,Kelly,Collin,EWL,NQ,
+285,Miller,William,EWL,cons 16,1372.10
+285,Voss,Matt,EWL,cons 24,1320.35
+285,Gossett,Caleb,MAC,NQ,
+285,Gunning,Jake,MAC,cons 32,1306.36
+285,Hutchison,Gage,MAC,cons 32,1313.85
+285,Koelling,Wyatt,MAC,NQ,
+285,Parker,Zack,MAC,NQ,
+285,Stencel,Matt,MAC,cons 32,1324.63
+285,Suglio,Stephen,MAC,cons 24,1299.44
+285,Wahab,Ali,MAC,NQ,
+285,Butler,Nathan,Pac 12,cons 12,1388.48
+285,Dhesi,Amar,Pac 12,3,1420.42
+285,Empey,Spencer,Pac 12,NQ,
+285,Hall,Tanner,Pac 12,cons 16,1409.68
+285,Penyacsek,Mark,Pac 12,NQ,
+285,Bumgarner,Lathan,SoCon,NQ,
+285,Cooley,Will,SoCon,NQ,
+285,Heino,Jere,SoCon,cons 12,1361.56
+285,Helton,Tommy,SoCon,NQ,
+285,McAleavey,Michael,SoCon,NQ,
+285,Miller,Cary,SoCon,NQ,1301.86
+285,Tolley,Connor,SoCon,NQ,
+285,Tomlinson,Jake,SoCon,NQ,
